@@ -28,7 +28,7 @@ with st.form(key="my_form"):
                     It only utilizes a few integer variables (`maxDiff` and `minTillNow`) to keep track of the 
                     maximum difference and the minimum value encountered so far, without requiring any 
                     additional data structures that scale with the input size.
-                    Nothing else no suggestion, no help in code, just give time complexity and space complexity analysis.'''
+                    IMPORTANT: Nothing else no suggestion, no help in code, just give time complexity and space complexity analysis.'''
 response = client.chat.completions.create(
     model= "llama-3.3-70b-versatile", 
     messages=[
